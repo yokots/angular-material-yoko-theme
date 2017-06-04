@@ -1,0 +1,10 @@
+@import "./node_modules/@angular/material/_theming";
+@include mat-core();
+
+$yoko-primary: mat-palette($mat-blue-grey);
+$yoko-accent: mat-palette($mat-pink, 500, 900, A100);
+$yoko-warn: mat-palette($mat-deep-orange);
+
+$yoko-theme: mat-dark-theme($yoko-primary,  $yoko-accent, $yoko-warn);
+
+@include angular-material-theme($yoko-theme);

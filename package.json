@@ -1,0 +1,15 @@
+{
+  "name": "angular-material-yoko-theme",
+  "version": "1.0.0",
+  "main": "dist/yoko-theme.css",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass index.scss ./dist/yoko-theme.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "peerDependencies": {
+    "@angular/material": "^2.0.0-beta.6"
+  }
+}
